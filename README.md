@@ -13,7 +13,7 @@ HHA--504/Cloud Computing
 ## Lab rules implemented
 **Lab Value Chosen:** 
 
-**SERUM POTASSIUm (mmol/L)**
+**SERUM POTASSIUM (mmol/L)**
 
 **Reference range: Normal serum potassium is 3.5-5.0 mmol/l (based on Mayo Clinic)**
 
