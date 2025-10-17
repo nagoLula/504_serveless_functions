@@ -1,4 +1,4 @@
-# 504_serveless_functions
+# 504_serverless_functions
 Assignment 3
 
 Naira Khergiani
