@@ -13,21 +13,22 @@ HHA--504/Cloud Computing
 ## Lab rules implemented
 **Lab Value Chosen:** 
 
-**SERUM POTASSIUM**
+**SERUM POTASSIUm (mmol/L)**
+
+**Reference range: Normal serum potassium is 3.5-5.0 mmol/l (based on Mayo Clinic)**
 
 **Clinical Rule:** 
 
-"potassium": 4.2,
+- Normal: 3.5 < potassium > 5.0 mmol/L
+- Abnormal: potassium < 3.5 or potassium > 5.0 mmol/L
 
-  "status": -"normal",
-  
-  "category": 
- 
-  "Normal-if potassium is between 3.5 and 5.0 mmol/L (inclusive); abnormal otherwise".
+**Citation:**
+
+- Mayo Clinic. "Potassium test" https://www.mayocliniclabs.com/tests-procedures/potassium-test/about/pac-20384753
 
 **Source: Mayo Clinic Laboratories** 
 
--Potassium, Serum. https://www.mayocliniclabs.com/test-catalog/Overview/602352
+- Potassium, Serum. https://www.mayocliniclabs.com/test-catalog/Overview/602352
 
 
 
