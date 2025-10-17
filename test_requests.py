@@ -1,4 +1,13 @@
-import requests
+import json
+# Ensure the 'requests' dependency is available
+
+try:
+    import test_requests as requests
+except ImportError:
+    raise SystemExit("Missing dependency: install requests with `python  -m pip install requests`")
+# Define the URLs of the deployed serverless functions
+# ...existing code...
+# No-op placeholder removed; configure the actual URLs below.
 
 # Replace these with your actual deployed URLs
 GCP_URL = "https://your-gcp-function-url"
@@ -19,6 +28,7 @@ def test_function(url, label):
         except Exception as e:
             print(f"Error testing {label}: {e}")
 
-print("Starting live test of serverless functions...")
-test_function(GCP_URL, "GCP")
-test_function(AZURE_URL, "Azure")
+if __name__ == "__main__":
+    print("Starting live test of serverless functions...")
+    test_function(GCP_URL, "GCP")
+    test_function(AZURE_URL, "Azure")
