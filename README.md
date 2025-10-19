@@ -32,7 +32,7 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 - Azure Function: [ deployed function URL]
 
 ## Demo Recording
-[Zoom or Loom Link Here]
+[ Loom Link Here]
 
 
 
