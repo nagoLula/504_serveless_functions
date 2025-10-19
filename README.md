@@ -15,12 +15,12 @@ HHA--504/Cloud Computing
 
 **SERUM POTASSIUM (mmol/L)**
 
-**Reference range: Normal serum potassium is 3.5-5.0 mmol/l (based on Mayo Clinic)**
+**Reference range: Normal serum potassium is 3.6-5.2 mmol/l (based on Mayo Clinic)**
 
 **Clinical Rule:** 
 
-- Normal: 3.5 < potassium > 5.0 mmol/L
-- Abnormal: potassium < 3.5 or potassium > 5.0 mmol/L
+- Normal: 3.6 < potassium > 5.2 mmol/L
+- Abnormal: potassium < 3.6 or potassium > 5.2 mmol/L
 
 **Citation:**
 
