@@ -28,11 +28,16 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 - Mayo Clinic Laboratories. ["Potassium, Serum"](https://www.mayocliniclabs.com/test-catalog/Overview/602352)
 
 ## Public Endpoints
-- GCP Function: [ deployed function URL]
-- Azure Function: [ deployed function URL]
+- GCP Function: [https://REGION-PROJECT.cloudfunctions.net/potassium_triage](#)
+- Azure Function: [https://YOURAPP.azurewebsites.net/api/potassium_triage](#)
 
 ## Demo Recording
 [ Loom Link Here]
+---
+## Comparison of Cloud Platforms:
+- Deploying the function on Google Cloud Platform (GCP) was more straightforward — the CLI setup and gcloud functions deploy command made it fast to test and publish.
+
+- The Azure Function App required a bit more setup (especially configuring function.json and authentication), but it offered a detailed monitoring dashboard and tighter integration with Visual Studio Code. GCP felt easier for quick testing, while Azure provided more robust management tools once deployed.
 
 
 
