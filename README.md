@@ -19,7 +19,7 @@ HHA--504/Cloud Computing
 
 **Clinical Rule:** 
 
-- Normal: 3.6 < potassium > 5.2 mmol/L
+- Normal: 3.6 ≤ potassium ≤ 5.2 mmol/L  
 - Abnormal: potassium < 3.6 or potassium > 5.2 mmol/L
 
 **Citation:**
