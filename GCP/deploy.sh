@@ -1,8 +1,11 @@
 #!/bin/bash
-gcloud functions deploy classify_potassium \
-  --runtime python314 \
+gcloud functions deploy potassium_triage \
+  --gen2 \
+  --runtime python310 \
   --region us-central1 \
-  --entry-point app \
-  --source=https://www.mayocliniclabs.com/tests-procedures/potassium-test/about/pac-20384753 \
+  --entry-point potassium_triage \
+  --source=. \
   --trigger-http \
-  --allow-unauthenticated \
+  --allow-unauthenticated
+
+
