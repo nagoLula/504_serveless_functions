@@ -49,6 +49,9 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 - Watch the demo video showcasing the deployment and testing of the GCP serverless function:
 
 https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721?sid=cac9dfb7-4efa-4686-89d1-5eb9edb840f7
+----
+![Deployment Screenshot](GCP/screenshot_deploy.png)
+![Logs Screenshot](GCP/screenshots_logs.png)
 
 
 
