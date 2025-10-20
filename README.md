@@ -28,17 +28,26 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 - Mayo Clinic Laboratories. ["Potassium, Serum"](https://www.mayocliniclabs.com/test-catalog/Overview/602352)
 
 ---
-
 ## Public Endpoints
 - GCP Function: [https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier](https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier)  
 - Azure Function: [https://YOURAPP.azurewebsites.net/api/potassium_triage](#) *(replace when deployed)*
 
 ---
-
 ## Example Test Outputs (GCP)
 ```json
 - Input: {"potassium": 4.0}, Status Code: 200, Response: {"potassium": 4.0, "status": "normal", "category": "Normal (3.5–5.0 mmol/L)"}
 - Input: {"potassium": 5.5}, Status Code: 200, Response: {"potassium": 5.5, "status": "abnormal", "category": "Abnormal (<3.5 or >5.0 mmol/L)"}
+
+---
+
+## Demo recording
+
+**LOOM**:
+
+- Watch the demo video showcasing the deployment and testing of the GCP serverless function:
+
+https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721?sid=cac9dfb7-4efa-4686-89d1-5eb9edb840f7
+
 
 
 
