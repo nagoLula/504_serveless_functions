@@ -1,17 +1,8 @@
-import json
-# Ensure the 'requests' dependency is available
-
-try:
-    import test_requests as requests
-except ImportError:
-    raise SystemExit("Missing dependency: install requests with `python  -m pip install requests`")
-# Define the URLs of the deployed serverless functions
-# ...existing code...
-# No-op placeholder removed; configure the actual URLs below.
+import requests
 
 # Replace these with your actual deployed URLs
-GCP_URL = "https://your-gcp-function-url"
-AZURE_URL = "https://your-azure-function-url"
+GCP_URL = "https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier"
+AZURE_URL = "https://your-azure-function-url"  # replace when you deploy to Azure
 
 # Test cases
 test_cases = [
