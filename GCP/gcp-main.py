@@ -21,10 +21,10 @@ def potassium_classifier():
     # Classify potassium levels
     if 3.5 <= potassium <= 5.0:
         status = "normal"
-        category = "Normal (3.5–5.0 mmol/L)"
+        category = "Normal (3.6–5.2 mmol/L)"
     else:
         status = "abnormal"
-        category = "Abnormal (<3.5 or >5.0 mmol/L)"
+        category = "Abnormal (<3.6 or >5.2 mmol/L)"
 
     # Return the classification result
     return jsonify({
@@ -35,6 +35,7 @@ def potassium_classifier():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
+
 
 
 
