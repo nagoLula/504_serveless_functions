@@ -6,20 +6,17 @@ app = Flask(__name__)
 def potassium_classifier():
     try:
         # Parse JSON data from the request
-        data = request.get_json(force=True)
-        potassium = data.get("potassium")
-
-        # Validate the presence of 'potassium'
-        if potassium is None:
+        data = request.get_json()
+        if not data or "potassium" not in data:
             return jsonify({"error": "'potassium' is required."}), 400
 
         # Ensure 'potassium' is a valid number
-        potassium = float(potassium)
+        potassium = float(data["potassium"])
     except ValueError:
         return jsonify({"error": "'potassium' must be a number."}), 400
 
-    # Classify potassium levels
-    if 3.5 <= potassium <= 5.0:
+    # Clinical rule: Normal if 3.6 ≤ potassium ≤ 5.2 mmol/L
+    if 3.6 <= potassium <= 5.2:
         status = "normal"
         category = "Normal (3.6–5.2 mmol/L)"
     else:
@@ -34,7 +31,7 @@ def potassium_classifier():
     })
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080, debug=True)
+    app.run(host="0.0.0.0", port=8080)
 
 
 
