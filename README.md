@@ -37,8 +37,8 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 
 ```json
 
-- Input: {"potassium": 4.0}, Status Code: 200, Response: {"potassium": 4.0, "status": "normal", "category": "Normal (3.5–5.0 mmol/L)"}
-- Input: {"potassium": 5.5}, Status Code: 200, Response: {"potassium": 5.5, "status": "abnormal", "category": "Abnormal (<3.5 or >5.0 mmol/L)"}
+- Input: {"potassium": 4.0}, Status Code: 200, Response: {"potassium": 4.0, "status": "normal", "category": "Normal (3.6–5.2 mmol/L)"}
+- Input: {"potassium": 5.5}, Status Code: 200, Response: {"potassium": 5.5, "status": "abnormal", "category": "Abnormal (<3.6 or >5.2 mmol/L)"}
 
 ---
 
