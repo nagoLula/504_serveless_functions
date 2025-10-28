@@ -60,16 +60,17 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 )
 
 ### 5. Testing the Function
-![Test Run Success](img width="634" height="915" alt="Screenshot 2025-10-27 203843" src="https://github.com/user-attachments/assets/0d41569a-366d-4d4b-b822-a57be58e23fb" /
-)
+![Test Run Success]("https://github.com/user-attachments/assets/0d41569a-366d-4d4b-b822-a57be58e23fb")
+
 
 ### 6. Viewing Logs
-![Logs Showing Successful Run](img width="1097" height="415" alt="Screenshot 2025-10-27 204231" src="https://github.com/user-attachments/assets/321a8f7d-267f-4150-82c2-922c0af851b1" /
-)
+![Logs Showing Successful Run]("https://github.com/user-attachments/assets/321a8f7d-267f-4150-82c2-922c0af851b1")
+
 
 ### 7. External Python Test
-![Python Terminal Output](img width="1097" height="415" alt="Screenshot 2025-10-27 204231" src="https://github.com/user-attachments/assets/92085ef6-83bb-4808-ad74-d221ef61b308" /
-)
+![Python Terminal Output] ("https://github.com/user-attachments/assets/92085ef6-83bb-4808-ad74-d221ef61b308")
+
+
 ---
 
 ## GCP deployment
