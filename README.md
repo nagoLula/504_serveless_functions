@@ -35,10 +35,36 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 
 ## Public Endpoints
 
-- GCP Function: [https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier](https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier)  
-- Azure Function: [https://YOURAPP.azurewebsites.net/api/potassium_triage](https://YOURAPP.azurewebsites.net/api/potassium_triage) *(replace when deployed)*
+## Public Endpoints
 
+- GCP Function: [https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier](https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier)  
+- Azure Function: [https://potassiumfunc504.azurewebsites.net/api/potassium](https://potassiumfunc504.azurewebsites.net/api/potassium)
 ---
+
+
+## Azure Function Deployment Walkthrough
+
+### 1. Function App Overview
+![Function App Overview](screenshots/01_function_app_overview.png)
+
+### 2. Creating the HTTP Trigger
+![Create Function Trigger](screenshots/02_create_function_trigger.png)
+
+### 3. Uploading Code via Code + Test
+![Code + Test Panel](screenshots/03_code_test_panel.png)
+
+### 4. Adding function.json
+![Function JSON Added](screenshots/04_function_json_added.png)
+
+### 5. Testing the Function
+![Test Run Success](screenshots/05_test_run_success.png)
+
+### 6. Viewing Logs
+![Logs Showing Successful Run](screenshots/06_logs_successful_run.png)
+
+### 7. External Python Test
+![Python Terminal Output](screenshots/07_python_test_terminal.png)
+
 
 ## Example Test Outputs (GCP)
 
@@ -59,7 +85,6 @@ https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721?sid=cac9dfb7-4efa-46
 ----
 ![Deployment Screenshot](GCP/screenshot_deploy.png)
 ![Logs Screenshot](GCP/screenshots_logs.png)
-
 
 
 
