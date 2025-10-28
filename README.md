@@ -45,7 +45,8 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 ## Azure Function Deployment Walkthrough
 
 ### 1. Function App Overview
-![Function App Overview](screenshots/01_function_app_overview.png)
+![Function App Overview](img width="1634" height="879" alt="Screenshot 2025-10-27 203327" src="https://github.com/user-attachments/assets/b86b81e6-741c-4412-afcb-b354a9c7652a" /)
+
 
 ### 2. Creating the HTTP Trigger
 ![Create Function Trigger](screenshots/02_create_function_trigger.png)
