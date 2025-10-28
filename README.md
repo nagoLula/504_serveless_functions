@@ -38,7 +38,7 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 ## Public Endpoints
 
 - GCP Function: [https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier](https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier)  
-- Azure Function: [https://potassiumfunc504.azurewebsites.net/api/potassium](https://potassiumfunc504.azurewebsites.net/api/potassium)
+- Azure Function: [https://potassiumfunc504-hqcfd8ebhhdfdxd0.eastus2-01.azurewebsites.net/api/potassium]
 ---
 
 
