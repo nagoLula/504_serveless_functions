@@ -37,8 +37,10 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 
 ## Public Endpoints
 
-- GCP Function: [https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier](https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier)  
-- Azure Function: [https://potassiumfunc504-hqcfd8ebhhdfdxd0.eastus2-01.azurewebsites.net/api/potassium]
+- GCP Function:
+- [https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier](https://us-central1-serverless-functions-475623.cloudfunctions.net/potassium_classifier)  
+- Azure Function:
+- [https://potassiumfunc504-hqcfd8ebhhdfdxd0.eastus2-01.azurewebsites.net/api/potassium]
 ---
 
 
@@ -92,11 +94,12 @@ Response: {"potassium": 5.5, "status": "abnormal", "category": "Abnormal (<3.6 o
 
 - Watch the demo video showcasing the deployment and testing of the GCP serverless function:
 
-(https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721?sid=cac9dfb7-4efa-4686-89d1-5eb9edb840f7) (https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721)
+- (https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721?sid=cac9dfb7-4efa-4686-89d1-5eb9edb840f7)
+- (https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721)
 ----
-![Deployment Screenshot](img width="1207" height="610" alt="Screenshot 2025-10-17 235530" src="https://github.com/user-attachments/assets/8e03ef83-d0f8-4640-8eba-edea4ea7b44e" /
-)
-![Logs Screenshot](GCP/screenshots_logs.png)
+![Deployment Screenshot] (img width="1207" height="610" alt="Screenshot 2025-10-17 235530" src="https://github.com/user-attachments/assets/8e03ef83-d0f8-4640-8eba-edea4ea7b44e" /)
+
+
 
 
 
