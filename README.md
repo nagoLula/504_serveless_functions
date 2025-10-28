@@ -49,30 +49,38 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 
 
 ### 2. Creating the HTTP Trigger
-![Create Function Trigger](screenshots/02_create_function_trigger.png)
+![Create Function Trigger](img width="854" height="334" alt="Screenshot 2025-10-27 203431" src="https://github.com/user-attachments/assets/46fe5dcd-278e-40d3-ad65-7e0e8322adf8" /)
+
 
 ### 3. Uploading Code via Code + Test
-![Code + Test Panel](screenshots/03_code_test_panel.png)
+![Code + Test Panel](img width="634" height="915" alt="Screenshot 2025-10-27 203843" src="https://github.com/user-attachments/assets/ae489d44-f724-4987-9056-a1425d67b18f" /)
 
 ### 4. Adding function.json
-![Function JSON Added](screenshots/04_function_json_added.png)
+![Function JSON Added](img width="332" height="715" alt="Screenshot 2025-10-27 194554" src="https://github.com/user-attachments/assets/480041a1-f4f2-4653-9f0d-5262b5b51300" /
+)
 
 ### 5. Testing the Function
-![Test Run Success](screenshots/05_test_run_success.png)
+![Test Run Success](img width="634" height="915" alt="Screenshot 2025-10-27 203843" src="https://github.com/user-attachments/assets/0d41569a-366d-4d4b-b822-a57be58e23fb" /
+)
 
 ### 6. Viewing Logs
-![Logs Showing Successful Run](screenshots/06_logs_successful_run.png)
+![Logs Showing Successful Run](img width="1097" height="415" alt="Screenshot 2025-10-27 204231" src="https://github.com/user-attachments/assets/321a8f7d-267f-4150-82c2-922c0af851b1" /
+)
 
 ### 7. External Python Test
-![Python Terminal Output](screenshots/07_python_test_terminal.png)
+![Python Terminal Output](img width="1097" height="415" alt="Screenshot 2025-10-27 204231" src="https://github.com/user-attachments/assets/92085ef6-83bb-4808-ad74-d221ef61b308" /
+)
+---
 
+## GCP deployment
 
-## Example Test Outputs (GCP)
+Input: {"potassium": 4.0}
+Status Code: 200
+Response: {"potassium": 4.0, "status": "normal", "category": "Normal (3.6–5.2 mmol/L)"}
 
-```json
-
-- Input: {"potassium": 4.0}, Status Code: 200, Response: {"potassium": 4.0, "status": "normal", "category": "Normal (3.6–5.2 mmol/L)"}
-- Input: {"potassium": 5.5}, Status Code: 200, Response: {"potassium": 5.5, "status": "abnormal", "category": "Abnormal (<3.6 or >5.2 mmol/L)"}
+Input: {"potassium": 5.5}
+Status Code: 200
+Response: {"potassium": 5.5, "status": "abnormal", "category": "Abnormal (<3.6 or >5.2 mmol/L)"}
 
 ---
 
@@ -82,9 +90,10 @@ Normal serum potassium is **3.6–5.2 mmol/L** (based on Mayo Clinic).
 
 - Watch the demo video showcasing the deployment and testing of the GCP serverless function:
 
-https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721?sid=cac9dfb7-4efa-4686-89d1-5eb9edb840f7
+[https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721?sid=cac9dfb7-4efa-4686-89d1-5eb9edb840f7](https://www.loom.com/share/cadc4d3fb49b4abaa3d75eb9be329721]
 ----
-![Deployment Screenshot](GCP/screenshot_deploy.png)
+![Deployment Screenshot](img width="1207" height="610" alt="Screenshot 2025-10-17 235530" src="https://github.com/user-attachments/assets/8e03ef83-d0f8-4640-8eba-edea4ea7b44e" /
+)
 ![Logs Screenshot](GCP/screenshots_logs.png)
 
 
